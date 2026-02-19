@@ -8,7 +8,7 @@ Haz un fork de este proyecto en tu repositorio de Github y contesta a las siguie
 
 1. ¿Qué sentido puede tener este proyecto y para que lo podrías usar?
 
-Sirve para saber utilizar pruebas y que asi pueda usar esas pruebas para revisar si hay errores en mi código
+Sirve para saber utilizar pruebas y que asi pueda usar esas pruebas para revisar si hay errores en mi código.
 
 2. Revisa las pruebas de la suma y comenta lo que te parezca de interés
 
