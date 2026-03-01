@@ -56,4 +56,16 @@ public class CalculadoraTest {
         assertEquals(OperacionNoValidaException.MSG, ex.getMessage());
 
     }
+
+    @Test
+    void dividir() {
+
+        // Se realizan 5 pruebas y si las cinco no dan error, dividir será correcto
+        assertAll("dividir",
+                () -> assertEquals(2, Calculadora.dividir(4, 2), "4 / 2 = 2"),
+                () -> assertEquals(-2, Calculadora.dividir(-4, 2), "-4 / 2 = -2"),
+                () -> assertEquals(-2, Calculadora.dividir(4, -2), "4 / -2 = -2"),
+                () -> assertEquals(2, Calculadora.dividir(-4, -2), "-4 / -2 = 2"),
+                () -> assertEquals(0, Calculadora.dividir(0, 2), "0 / 2 = 0"));
+    }
 }
