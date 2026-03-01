@@ -7,9 +7,13 @@ Observa que este proyecto no tiene ninguna clase con el método `main`, no nos h
 Haz un fork de este proyecto en tu repositorio de Github y contesta a las siguientes preguntas:
 
 1. ¿Qué sentido puede tener este proyecto y para que lo podrías usar?
+
 El proyecto sirve para saber hacer pruebas de caja negra para comprobar que el código funcione correctamente observando las salidas del sistema
+
 2. Revisa las pruebas de la suma y comenta lo que te parezca de interés.
+
 La prueba no funciona correctamente en "sumarPositivosMal" porque el valor esperado no es un valor correcto.
+
 3. Realiza un estudio de caja negra de la división e implementa las pruebas en junit: Se realizará en markdown.
 
 ## Instrucciones
